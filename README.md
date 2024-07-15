@@ -1,7 +1,7 @@
-<h1>kewltab</h1>
+# kewltab
 a kewler tab than google's new tab page
 
-<h2>how to install??</h2>
+## how to install?
 1. download this as a zip <br>
 2. click on the puzzle icon next to your search bar <br>
 3. click "manage extensions" <br>
