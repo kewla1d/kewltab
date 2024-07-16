@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'SF Pro Expanded';
-    src: url('SFPro-Expanded-Ultralight.ttf') format('ttf'),
-        url('SFPro-Expanded-Ultralight.ttf') format('ttf');
+    src: url('100-SFPro-Expanded-UltraLight.ttf') format('ttf');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -9,8 +8,7 @@
 
 @font-face {
     font-family: 'SF Pro Expanded';
-    src: url('SFPro-Expanded-Thin.ttf') format('ttf'),
-        url('SFPro-Expanded-Thin.ttf') format('ttf');
+    src: url('200-SFPro-Expanded-Thin.ttf') format('ttf');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -18,8 +16,7 @@
 
 @font-face {
     font-family: 'SF Pro Expanded';
-    src: url('SFPro-Expanded-Light.ttf') format('ttf'),
-        url('SFPro-Expanded-Light.ttf') format('ttf');
+    src: url('300-SFPro-Expanded-Light.ttf') format('ttf');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -27,8 +24,7 @@
 
 @font-face {
     font-family: 'SF Pro Expanded';
-    src: url('SFPro-Expanded-Regular.ttf') format('ttf'),
-        url('SFPro-Expanded-Regular.ttf') format('ttf');
+    src: url('400-SFPro-Expanded-Regular.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -36,8 +32,7 @@
 
 @font-face {
     font-family: 'SF Pro Expanded';
-    src: url('SFPro-Expanded-Medium.ttf') format('ttf'),
-        url('SFPro-Expanded-Medium.ttf') format('ttf');
+    src: url('500-SFPro-Expanded-Medium.ttf') format('ttf');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -45,8 +40,7 @@
 
 @font-face {
     font-family: 'SF Pro Expanded';
-    src: url('SFPro-Expanded-Semibold.ttf') format('ttf'),
-        url('SFPro-Expanded-Semibold.ttf') format('ttf');
+    src: url('600-SFPro-Expanded-Semibold.ttf') format('ttf');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -54,8 +48,7 @@
 
 @font-face {
     font-family: 'SF Pro Expanded';
-    src: url('SFPro-Expanded-Bold.ttf') format('ttf'),
-        url('SFPro-Expanded-Bold.ttf') format('ttf');
+    src: url('700-SFPro-Expanded-Bold.ttf') format('ttf');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -63,8 +56,7 @@
 
 @font-face {
     font-family: 'SF Pro Expanded';
-    src: url('SFPro-Expanded-Heavy.ttf') format('ttf'),
-        url('SFPro-Expanded-Heavy.ttf') format('ttf');
+    src: url('800-SFPro-Expanded-Heavy.ttf') format('ttf');
     font-weight: 800;
     font-style: normal;
     font-display: swap;
@@ -72,8 +64,7 @@
 
 @font-face {
     font-family: 'SF Pro Expanded';
-    src: url('SFPro-Expanded-Black.ttf') format('ttf'),
-        url('SFPro-Expanded-Black.ttf') format('ttf');
+    src: url('900-SFPro-Expanded-Black.ttf') format('ttf');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
