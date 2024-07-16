@@ -191,7 +191,7 @@ div.base {
         position: fixed;
         top: 20px;
         right: 20px;
-        width: 131px;
+        width: 117px;
         opacity: 1;
         filter: blur(0px);
     }
@@ -201,7 +201,7 @@ div.base {
         position: fixed;
         top: 20px;
         right: 20px;
-        width: 131px;
+        width: 117px;
         opacity: 1;
         filter: blur(0px);
     }
@@ -276,6 +276,7 @@ div.base {
 
     box-sizing: border-box;
     padding: 0px 10px;
+    gap: 5px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
