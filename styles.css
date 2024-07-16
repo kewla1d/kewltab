@@ -5,6 +5,7 @@
     transition: all 0.6s cubic-bezier(0.29, -0.03, 0.16, 0.96);
     animation: auto;
     text-decoration: none;
+    cursor: default;
 }
 
 body {
@@ -82,6 +83,9 @@ h1#date {
         background: transparent;
         border: transparent;
         outline: none;
+    }
+    ::placeholder {
+        color: inherit;
     }
 }
 #searchbar:focus-within {
@@ -171,4 +175,153 @@ div.base {
         color:white;
         text-shadow: 0px 0px 10px #ffffff80;
     }
+}
+
+@keyframes more_open {
+    from {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        opacity: 0;
+        filter: blur(20px);
+        width: 40px;
+    }
+
+    to {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 131px;
+        opacity: 1;
+        filter: blur(0px);
+    }
+}
+@keyframes more_close {
+    from {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 131px;
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    to {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 40px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        opacity: 0;
+        filter: blur(20px);
+    }
+}
+
+#more-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+
+    height: 40px;
+    width: 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(128, 128, 128, 0.15);
+    box-shadow: 0px 0px 20px #0000007a;
+    background-blend-mode: luminosity;
+    backdrop-filter: blur(20px);
+    outline:none;
+    font-size: 16px;
+}
+#more-content {
+    animation: more_close 0.5s cubic-bezier(0, 0, 0, 1);
+    position: fixed;
+    top: 20px;
+    right: -140px;
+    width: 140px;
+    height: 40px;
+
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 24px;
+
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(128, 128, 128, 0.15);
+    box-shadow: 0px 0px 20px #0000007a;
+    background-blend-mode: luminosity;
+    backdrop-filter: blur(20px);
+    outline:none;
+
+    opacity: 0;
+    filter: blur(20px);
+}
+#more-content.open {
+    animation: more_open 0.5s cubic-bezier(0, 0, 0, 1);
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: fit-content;
+    height: 40px;
+
+    box-sizing: border-box;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(128, 128, 128, 0.15);
+    box-shadow: 0px 0px 20px #0000007a;
+    background-blend-mode: luminosity;
+    backdrop-filter: blur(20px);
+    outline:none;
+
+    opacity: 1;
+    filter: blur(0px);
+}
+.morelink {
+    height: 40px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.75);
+}
+.morelink:hover {
+    color: white;
+    scale: 1.1;
+}
+
+#more-button-close {
+    height: 40px;
+    width: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    outline:none;
+    border:none;
+    background: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+}
+#more-button-close:hover {
+    color: white;
+    font-size: 14px;
 }

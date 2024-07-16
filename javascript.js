@@ -55,3 +55,15 @@ function startDate() {
 }
 
 startDate();
+
+
+const moreButton = document.querySelector('#more-button');
+const moreContent = document.querySelector('#more-content');
+const openButton = document.querySelector('#more-button-close');
+
+moreButton.addEventListener('click', () => {
+  moreContent.classList.toggle('open');
+});
+openButton.addEventListener('click', () => {
+  moreContent.classList.toggle('open');
+});
