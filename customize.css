@@ -1,0 +1,58 @@
+@import url(assets/style.css);
+
+/* use this to customize kewltab */
+
+:root {
+    /* CLOCK */
+        /* color of the clock */
+        --clock-color: rgba(255, 255, 255, 1.00);
+
+        /* color of the clock's colon */
+        --clock-colon: rgba(255, 255, 255, 0.50);
+
+        /* size of the clock */
+        --clock-size: 100px; 
+
+
+    /* DATE */
+        /* color of the date */
+        --date-color: rgba(255, 255, 255, 1.00);
+
+        /* size of the date */
+        --date-size: 25px; 
+        
+
+
+    /* BASES ; more menu and main menu */
+        /* color of the base */
+        --base-background: rgba(128, 128, 128, 0.15);
+
+        /* border of the base;
+           - width *SOLID* color */
+        --base-border: 1px solid rgba(255, 255, 255, 0.10);
+
+        /* roundness of the base */
+        --base-roundness: 24px;
+        
+        /* shadow of the base;
+           - hoz-offset ver-offset blur-strength color*/
+        --base-shadow: 0px 0px 20px #0000007a;
+    
+
+
+    /* SHORTCUTS */
+        /* show the shortcut label (edited in html file);
+          - set to auto if yes, set to none if no */
+        --show-label: none;
+    
+        /* roundness of shortcut icons*/
+        --sc-roundness: 21%;
+    
+
+
+    /* SEARCH BAR */
+        /* color of the searchbar */
+        --sb-background: rgba(0, 0, 0, 0.45);
+
+        
+}
