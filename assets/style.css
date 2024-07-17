@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'SF Pro';
+    src: url(SF-Pro.ttf);
+    font-weight: 100 900;
+}
+
 * {
     font-family: 'SF Pro', sans-serif;
     color: white;
