@@ -28,8 +28,9 @@ body {
 }
 
 h1#time {
-    font-family: 'SF Pro Expanded';
+    font-family: 'SF Pro';
     font-size: 80px;
+    font-stretch: 132%;
 }
 #timecolon {
     color: #ffffff80;
