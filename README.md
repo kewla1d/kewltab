@@ -13,21 +13,21 @@ a customizable new tab page made by kewlaid based on apple's visionos
 
 ## customize
 ### edit the styling
-    1. open the "customize.css" file
-    2. read through and customize to your liking!
+1. open the "customize.css" file
+2. read through and customize to your liking!
 
 ### add and/or edit shortcuts
-    1. open the "index.html" file
-    2. look at for the "<a>" tags with "<!-- Shortcut -->" labelled above them
-    3. copy this code:
-        > ``<a class="shortcutlink" target="_blank" 
-            href="! where the shortcut leads to here">
-
-            <!-- Shortcut Icon -->
-            <img src="! link to an image here">
-
-            <!-- Shortcut Label -->
-            <p>! the label of your shortcut here</p>
-        </a>``
-    4. paste the code right under the lowest shortcut
-    5. edit all the areas where you see an exclamation mark. for example, you would paste the link to the website where you want the shortcut to lead to at "! where the shortcut leads to here."   **make sure to keep the quotation marks.**
+1. open the "index.html" file
+2. look at for the "<a>" tags with "<!-- Shortcut -->" labelled above them
+3. copy this code:
+    <a class="shortcutlink" target="_blank" 
+    href="! where the shortcut leads to here">
+    
+        <!-- Shortcut Icon -->
+        <img src="! link to an image here">
+        
+        <!-- Shortcut Label -->
+        <p>! the label of your shortcut here</p>
+    </a>
+4. paste the code right under the lowest shortcut
+5. edit all the areas where you see an exclamation mark. for example, you would paste the link to the website where you want the shortcut to lead to at "! where the shortcut leads to here."   **make sure to keep the quotation marks.**
