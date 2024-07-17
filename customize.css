@@ -1,5 +1,6 @@
 @import url(assets/style.css);
 
+
 /* use this to customize kewltab */
 
 :root {
@@ -21,7 +22,7 @@
 
     /* DATE */
         /* color of the date */
-        --date-color: rgba(255, 255, 255, 1.00);
+        --date-color: rgba(255, 255, 255, 0.75);
 
         /* size of the date */
         --date-size: 25px; 
