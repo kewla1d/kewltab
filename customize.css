@@ -3,6 +3,11 @@
 /* use this to customize kewltab */
 
 :root {
+    /* BACKGROUND */
+        /* background */
+        --bg-img: url(bg.png);
+
+
     /* CLOCK */
         /* color of the clock */
         --clock-color: rgba(255, 255, 255, 1.00);

@@ -9,7 +9,7 @@
 }
 
 body {
-    background: url(bg.png);
+    background: var(--bg-img);
     background-size: cover;
     display: flex;
     flex-direction: row;
