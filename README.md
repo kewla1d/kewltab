@@ -2,6 +2,10 @@
 a customizable new tab page made by kewlaid based on apple's visionos
 ![preview](https://github.com/kewla1d/kewltab/blob/main/assets/kewltab-preview.png)
 
+https://github.com/Broco8Dev/VisionTab
+check out the latest one with better customization and a new weather widget!
+
+
 *i'll make a shortcut editing menu once i learn how*
 
 
