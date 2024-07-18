@@ -106,9 +106,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 newSettings[cssVar] = value;
             }
         });
-        chrome.storage.local.set(newSettings, () => {
-            alert('Settings saved!');
-        });
     });
 
     // Debugging logs
