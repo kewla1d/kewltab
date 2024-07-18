@@ -1,5 +1,6 @@
 # kewltab
 a customizable new tab page made by kewlaid based on apple's visionos
+![preview](https://github.com/kewla1d/kewltab/blob/main/assets/kewltab-preview.png)
 
 *i'll make a customization menu once i learn how*
 
