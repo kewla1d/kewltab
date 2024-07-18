@@ -16,10 +16,6 @@ a customizable new tab page made by kewlaid based on apple's visionos
 8. open a new tab and enjoy :)
 
 ## customize
-### edit the styling
-1. open the "customize.css" file
-2. read through and customize to your liking!
-
 ### add and/or edit shortcuts
 1. open the "index.html" file
 2. look at for the "a" tags with "Shortcut" labelled above them
