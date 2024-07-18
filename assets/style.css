@@ -120,7 +120,7 @@ div.main {
     border-radius: var(--base-roundness);
     border: var(--base-border);
     background: var(--base-background);
-    box-shadow: 0px 0px 20px #0000007a;
+    box-shadow: var(--base-shadow);
     background-blend-mode: luminosity;
     backdrop-filter: blur(20px);
     gap: 20px;
@@ -136,7 +136,6 @@ div.main {
     align-content: center;
     border-radius: 12px;
     background: var(--sb-background);
-    background-blend-mode: luminosity, color-burn;
     box-shadow: 1px 1.5px 4px 0px rgba(0, 0, 0, 0.08) inset, 1px 1.5px 4px 0px rgba(0, 0, 0, 0.10) inset;
     background-blend-mode: luminosity;
     backdrop-filter: blur(20px);
@@ -151,7 +150,7 @@ div.main {
         font: inherit;
     }
     form{
-        width: 58px;
+        width: 60px;
         color: inherit;
         display: flex;
         justify-content: center;
@@ -161,7 +160,7 @@ div.main {
     input{
         color: inherit;
         font:inherit;
-        width: 58px;
+        width: 64px;
         display: flex;
         justify-content: center;
         align-content: center;
@@ -261,7 +260,7 @@ div.main {
     from {
         position: fixed;
         top: 20px;
-        right: 80px;
+        right: 70px;
         width: 40px;
         height: 40px;
 
@@ -276,7 +275,7 @@ div.main {
     to {
         position: fixed;
         top: 20px;
-        right: 80px;
+        right: 70px;
         width: 117px;
 
         gap: 5px;
@@ -289,7 +288,7 @@ div.main {
     from {
         position: fixed;
         top: 20px;
-        right: 80px;
+        right: 70px;
         width: 117px;
 
         gap: 5px;
@@ -302,7 +301,7 @@ div.main {
         animation: more_close 0.5s cubic-bezier(0, 0, 0, 1);
         position: fixed;
         top: 20px;
-        right: 80px;
+        right: 70px;
         width: 40px;
         height: 40px;
         
@@ -321,7 +320,7 @@ div.main {
 #more-button {
     position: fixed;
     top: 20px;
-    right: 80px;
+    right: 70px;
 
     height: 40px;
     width: 40px;
@@ -334,7 +333,7 @@ div.main {
     border-radius: var(--base-roundness);
     border: var(--base-border);
     background: var(--base-background);
-    box-shadow: 0px 0px 20px #0000007a;
+    box-shadow: var(--base-shadow);
     background-blend-mode: luminosity;
     backdrop-filter: blur(20px);
     outline:none;
@@ -358,7 +357,7 @@ div.main {
     border-radius: var(--base-roundness);
     border: var(--base-border);
     background: var(--base-background);
-    box-shadow: 0px 0px 20px #0000007a;
+    box-shadow: var(--base-shadow);
     background-blend-mode: luminosity;
     backdrop-filter: blur(20px);
     outline:none;
@@ -372,7 +371,7 @@ div.main {
     animation: more_open 0.5s cubic-bezier(0, 0, 0, 1);
     position: fixed;
     top: 20px;
-    right: 80px;
+    right: 70px;
     width: fit-content;
     height: 40px;
 
@@ -386,7 +385,7 @@ div.main {
     border-radius: var(--base-roundness);
     border: var(--base-border);
     background: var(--base-background);
-    box-shadow: 0px 0px 20px #0000007a;
+    box-shadow: var(--base-shadow);
     background-blend-mode: luminosity;
     backdrop-filter: blur(20px);
     outline:none;
@@ -507,12 +506,16 @@ div.main {
     border-radius: var(--base-roundness);
     border: var(--base-border);
     background: var(--base-background);
-    box-shadow: 0px 0px 20px #0000007a;
+    box-shadow: var(--base-shadow);
     background-blend-mode: luminosity;
     backdrop-filter: blur(20px);
     outline:none;
     font-size: 16px;
 }
+#settings-open:hover {
+    rotate: 240deg;
+}
+
 
 #settings-close {
     height: 20px;
@@ -554,7 +557,7 @@ div.main {
     border-radius: var(--base-roundness);
     border: var(--base-border);
     background: var(--base-background);
-    box-shadow: 0px 0px 20px #0000007a;
+    box-shadow: var(--base-shadow);
     background-blend-mode: luminosity;
     backdrop-filter: blur(20px);
     outline:none;
@@ -580,7 +583,7 @@ div.main {
     border-radius: var(--base-roundness);
     border: var(--base-border);
     background: var(--base-background);
-    box-shadow: 0px 0px 20px #0000007a;
+    box-shadow: var(--base-shadow);
     background-blend-mode: luminosity;
     backdrop-filter: blur(20px);
     outline:none;
@@ -639,8 +642,14 @@ div.main {
     border: none;
     font-size: 13.5px;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
     gap: 5px;
+    border: none;
+    outline: none;
+
+    ::placeholder {
+        color: rgba(255, 255, 255, 0.5);
+    }
 }
 
 #save-settings {
