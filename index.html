@@ -2,8 +2,6 @@
 <html>
     <head>
         <link rel="stylesheet" target="_blank" 
-                            href="https://www.apple.com/wss/fonts?family=SF+Pro&amp;v=2" type="text/css">
-        <link rel="stylesheet" target="_blank" 
                             href="customize.css">
         <link rel="icon" type="image/x-icon" target="_blank" 
                             href="assets/icons/favicon.png">
@@ -87,6 +85,87 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+
+        <button id="settings-open">􀍟</button>
+        <div id="settings-menu">
+            <div id="settings-header">
+                <h2>􀍟 Settings</h2>
+                <button id="settings-close">􀆄</button>
+            </div>
+            <div id="settings-list">
+                <p class="setting-label" style="font-weight: 400;">Leave options blank to set to default.</p>
+                <div class="setting">
+                    <label for="bg-img" class="setting-label">Background:</label>
+                    <input placeholder="url(URL to image) / rgba(red, green, blue, alpha)" placeholder="rgba(red, green, blue, alpha)" type="text" id="bg-img" name="bg-img" class="setting-input">
+                </div>
+        
+                <div class="setting">
+                    <label for="clock-color" class="setting-label">Clock Color:</label>
+                    <input placeholder="rgba(red, green, blue, alpha)" type="text" id="clock-color" name="clock-color" class="setting-input" value="">
+                </div>
+        
+                <div class="setting">
+                    <label for="clock-colon" class="setting-label">Clock Colon Color:</label>
+                    <input placeholder="rgba(red, green, blue, alpha)" type="text" id="clock-colon" name="clock-colon" class="setting-input" value="">
+                </div>
+        
+                <div class="setting">
+                    <label for="clock-size" class="setting-label">Clock Size:</label>
+                    <input placeholder="100px" type="text" id="clock-size" name="clock-size" class="setting-input" value="">
+                </div>
+        
+                <div class="setting">
+                    <label for="date-color" class="setting-label">Date Color:</label>
+                    <input placeholder="rgba(red, green, blue, alpha)" type="text" id="date-color" name="date-color" class="setting-input" value="">
+                </div>
+        
+                <div class="setting">
+                    <label for="date-size" class="setting-label">Date Size:</label>
+                    <input placeholder="25px" type="text" id="date-size" name="date-size" class="setting-input" value="">
+                </div>
+        
+                <div class="setting">
+                    <label for="base-background" class="setting-label">Base Background Color:</label>
+                    <input placeholder="rgba(red, green, blue, alpha)" type="text" id="base-background" name="base-background" class="setting-input" value="">
+                </div>
+        
+                <div class="setting">
+                    <label for="base-border" class="setting-label">Base Border:</label>
+                    <input placeholder="􀟦 solid rgba(red, green, blue, alpha)" type="text" id="base-border" name="base-border" class="setting-input" value="">
+                </div>
+        
+                <div class="setting">
+                    <label for="base-roundness" class="setting-label">Base Roundness:</label>
+                    <input placeholder="24px" type="text" id="base-roundness" name="base-roundness" class="setting-input" value="">
+                </div>
+        
+                <div class="setting">
+                    <label for="base-shadow" class="setting-label">Base Shadow:</label>
+                    <input placeholder="􀄾 􀑹 􀉨 rgba(red, green, blue, alpha)" type="text" id="base-shadow" name="base-shadow" class="setting-input" value="">
+                </div>
+        
+                <div class="setting">
+                    <label for="show-label" class="setting-label">Show Shortcut Label:</label>
+                    <select id="show-label" name="show-label" class="setting-input">
+                        <option value="auto">􀆅 Yes</option>
+                        <option value="none">􀆄 No</option>
+                    </select>
+                </div>
+        
+                <div class="setting">
+                    <label for="sc-roundness" class="setting-label">Shortcut Roundness (%):</label>
+                    <input placeholder="rgba(red, green, blue, alpha)" type="text" id="sc-roundness" name="sc-roundness" class="setting-input" value="">
+                </div>
+        
+                <div class="setting">
+                    <label for="sb-background" class="setting-label">Search Bar Background Color:</label>
+                    <input placeholder="rgba(red, green, blue, alpha)" type="text" id="sb-background" name="sb-background" class="setting-input" value="">
+                </div>
+            </div>
+    
+            <button id="save-settings">􀫸 Apply</button>
         </div>
 
 
